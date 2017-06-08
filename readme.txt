@@ -40,6 +40,9 @@ http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b0
 
     删除分支：git branch -d <name>   
 
+分支管理策略
+    git merge --no-ff -m "merge with no-ff" dev
+
 
 版本回退：
     回退到上一版本
