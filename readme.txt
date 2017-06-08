@@ -41,25 +41,6 @@ http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b0
     删除分支：git branch -d <name>   
 
 
-解决分支冲突
-    
-分支管理策略
-
-查看分支：git branch
-
-创建分支：git branch <name>
-
-切换分支：git checkout <name>
-
-创建+切换分支：git checkout -b <name>
-
-合并某分支到当前分支：git merge <name>
-
-删除分支：git branch -d <name>
-
-
->>>>>>> feature1
-
 版本回退：
     回退到上一版本
          git  reset --hard HEAD^
@@ -79,4 +60,3 @@ git本地仓库操作的一些命令：
     rm test.txt 删除文件
     git checkout -- test.txt 。不保存修改，回到最新版本， add之前
 
-    createing test
