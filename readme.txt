@@ -23,8 +23,17 @@ http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b0
 
 
 创建与合并分支
-    
-
+    创建+切换分支
+        git checkout -b dev
+    查看当前分支
+        git branch 
+    合并某分支到当前分支
+        git merge dev
+    切换回主分支
+        git checkout master
+  
+    删除分支
+        git branch -d dev
         
 版本回退：
     回退到上一版本
