@@ -27,6 +27,7 @@ http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b0
 
 
 
+<<<<<<< HEAD
 创建与合并分支
    查看分支：git branch
 
@@ -44,6 +45,21 @@ http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b0
 解决分支冲突
     
 
+=======
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
+
+
+>>>>>>> feature1
 
 版本回退：
     回退到上一版本
