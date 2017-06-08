@@ -27,7 +27,6 @@ http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b0
 
 
 
-<<<<<<< HEAD
 创建与合并分支
    查看分支：git branch
 
@@ -45,7 +44,7 @@ http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b0
 解决分支冲突
     
 
-=======
+
 查看分支：git branch
 
 创建分支：git branch <name>
