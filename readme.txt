@@ -1,6 +1,8 @@
 learning git
 http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013752340242354807e192f02a44359908df8a5643103a000
 
+
+
 本地创建版本库：
     选择一个合适的目录 
         git init
@@ -12,6 +14,8 @@ http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b0
     提交到本地仓库
         git commit -m "initial commit"
 
+
+
 远程仓库
     关联远程仓库：
         git remote add origin git@github.com:XXX/learngit.git
@@ -22,25 +26,29 @@ http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b0
         git push -u origin master
 
 
-创建与合并分支
-    创建+切换分支
-        git checkout -b dev
-    查看当前分支
-        git branch 
-    合并某分支到当前分支
-        git merge dev
-    切换回主分支
-        git checkout master
-  
-    删除分支
-        git branch -d dev
-        
+
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
+
+
+
 版本回退：
     回退到上一版本
          git  reset --hard HEAD^
     回退到指定版本 
         通过git log --pretty=oneline 查看所有历史提交
         再通过 git reset --hard 3628164 退回指定版本
+
+
 
 git本地仓库操作的一些命令：
     git log 查看历史记录
