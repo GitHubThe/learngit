@@ -1,0 +1,12 @@
+Android端 RSA解密遇到的两个问题：
+
+1,Java.security.spec.InvalidKeySpecException: java.lang.RuntimeException: error:0D0680A8:asn1 encoding routines:ASN1_CHECK_TLEN:wrong tag
+	
+	解决：
+		KeyFactory keyf = KeyFactory.getInstance("RSA");要改为
+		KeyFactory keyf = KeyFactory.getInstance("RSA", "BC");
+
+2、RSA解密成功后乱码：
+	解决：
+		Cipher.getInstance(“RSA”);改为
+		Cipher.getInstance(“RSA/ECB/PKCS1Padding”); 
