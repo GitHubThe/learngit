@@ -25,6 +25,9 @@ http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b0
     添加远程仓库：
         git push -u origin master
 
+拉取远程仓库
+    git pull origin master
+
 
 
 创建与合并分支
