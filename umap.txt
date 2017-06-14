@@ -1,0 +1,20 @@
+android 调用第三方地图（高德，百度）的路线规划去那里
+   
+    高德地图：
+           Intent intent = new Intent();
+                        intent.setAction(Intent.ACTION_VIEW);
+                        intent.addCategory(Intent.CATEGORY_DEFAULT);
+                        //将功能Scheme以URI的方式传入data
+                        Uri uri = Uri.parse("androidamap://poi?sourceApplication=com.plas.app&keywords=广东东莞&dev=0");
+                        intent.setData(uri);
+                        //启动该页面即可
+                        startActivity(intent);
+
+    百度地图：  
+
+          try {
+                Intent intent = Intent.getIntent("intent://map/direction?destination=广东东莞&src=companyname|companyname#Intent;scheme=bdapp;package=com.baidu.BaiduMap;end");
+                startActivity(intent);
+          } catch (URISyntaxException e) {
+                e.printStackTrace();
+          }
