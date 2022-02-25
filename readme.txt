@@ -79,3 +79,5 @@ git本地仓库操作的一些命令：
     git checkout -- test.txt 。不保存修改，回到最新版本， add之前
 
 >>>>>>> 42823a1fae665ea633c006bdaa25f991b3b01ed8
+
+清除git rm -rf .git && git rm --cache . -f
